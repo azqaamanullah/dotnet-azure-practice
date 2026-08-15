@@ -1,0 +1,60 @@
+@using dotnet_azure_practice.Models
+
+<div class="project-card">
+
+    @if (!string.IsNullOrEmpty(Project.Image))
+    {
+        <img src="@Project.Image"
+             alt="@Project.Title"
+             class="project-image" />
+    }
+
+    <div class="project-content">
+
+        <h3>@Project.Title</h3>
+
+        <p>@Project.Description</p>
+
+        <div class="technology-list">
+
+            @foreach (var technology in Project.Technologies)
+            {
+                <span class="technology">
+                    @technology
+                </span>
+            }
+
+        </div>
+
+        <div class="project-links">
+
+            @if (Project.GitHubUrl != "#")
+            {
+                <a href="@Project.GitHubUrl"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub
+                </a>
+            }
+
+            @if (Project.LiveUrl != "#")
+            {
+                <a href="@Project.LiveUrl"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Live Demo
+                </a>
+            }
+
+        </div>
+
+    </div>
+
+</div>
+
+@code {
+
+    [Parameter]
+    public Project Project { get; set; } = new();
+
+}

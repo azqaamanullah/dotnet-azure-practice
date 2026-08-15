@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Frontend",
+    "\\Frontend\\Layout",
+    "\\Frontend\\Models",
+    "\\Frontend\\Shared",
+    "\\Frontend\\wwwroot",
+    "\\Frontend\\wwwroot\\css"
+  ],
+  "SelectedNode": "\\Frontend\\wwwroot\\css\\app.css",
+  "PreviewInSolutionExplorer": false
+}
