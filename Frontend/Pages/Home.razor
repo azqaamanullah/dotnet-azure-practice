@@ -1,53 +1,101 @@
 ﻿@page "/"
 @using Frontend.Models
-@using Frontend.Shared
+@using Frontend.Components
 
-<PageTitle>My Cloud Dev Portfolio</PageTitle>
+<PageTitle>Azqa Aman Ullah | .NET & Full Stack Developer</PageTitle>
 
-
-<h1>Welcome to my Automated DevOps Lab!</h1>
-<p>This application serves as a living proof-of-concept for modern cloud architecture and automated software delivery.</p>
+<!-- HERO -->
 
 <section class="hero">
 
-    <div class="hero-content">
+    <div class="hero-glow hero-glow-one"></div>
+    <div class="hero-glow hero-glow-two"></div>
 
-        <p class="hero-greeting">
-            Hello, I'm
-        </p>
+    <div class="hero-container">
 
-        <h1>
-            Azqa Aman Ullah
-        </h1>
+        <div class="hero-content">
 
-        <h2>
-            Full Stack Software Developer
-        </h2>
+            <div class="availability">
+                <span class="availability-dot"></span>
+                Open to Software Development Opportunities
+            </div>
 
-        <p class="hero-description">
-            I build modern, scalable web applications using
-            C#, .NET, React, JavaScript and SQL.
-        </p>
+            <p class="hero-eyebrow">
+                FULL STACK SOFTWARE DEVELOPER
+            </p>
 
-        <div class="hero-buttons">
+            <h1>
+                Building modern
+                <span class="gradient-text">.NET & cloud</span>
+                applications.
+            </h1>
 
-            <a href="#projects" class="primary-button">
-                View My Work
-            </a>
+            <p class="hero-description">
+                I'm Azqa Aman Ullah, a Full Stack Software Developer
+                specialising in C#, .NET, React, SQL and modern web
+                application development.
+            </p>
 
-            <a href="#contact" class="secondary-button">
-                Contact Me
-            </a>
+            <div class="hero-buttons">
+
+                <a href="#projects" class="primary-button">
+                    View My Projects
+                    <span>→</span>
+                </a>
+
+                <a href="#contact" class="secondary-button">
+                    Let's Connect
+                </a>
+
+            </div>
+
+            <div class="hero-tech">
+
+                <span>C#</span>
+                <span>.NET</span>
+                <span>ASP.NET Core</span>
+                <span>React</span>
+                <span>SQL</span>
+                <span>Azure</span>
+
+            </div>
 
         </div>
 
-        <div class="hero-tech">
+        <div class="hero-profile">
 
-            <span>C#</span>
-            <span>.NET</span>
-            <span>React</span>
-            <span>SQL</span>
-            <span>Azure</span>
+            <div class="profile-orbit orbit-one"></div>
+            <div class="profile-orbit orbit-two"></div>
+
+            <div class="profile-image-wrapper">
+
+                <img src="images/profile.jpg"
+                     alt="Azqa Aman Ullah"
+                     class="profile-image" />
+
+            </div>
+
+            <div class="profile-floating-card card-top">
+
+                <span class="floating-icon">☁</span>
+
+                <div>
+                    <strong>Azure</strong>
+                    <small>Cloud Development</small>
+                </div>
+
+            </div>
+
+            <div class="profile-floating-card card-bottom">
+
+                <span class="floating-icon">⚡</span>
+
+                <div>
+                    <strong>.NET</strong>
+                    <small>Full Stack Development</small>
+                </div>
+
+            </div>
 
         </div>
 
@@ -56,56 +104,152 @@
 </section>
 
 
-<section id="about" class="section">
+<!-- PROFILE / STATS -->
+
+<section class="stats-section">
 
     <div class="section-container">
 
-        <p class="section-label">
-            ABOUT ME
-        </p>
+        <div class="stats-grid">
 
-        <h2>
-            Building software that solves real problems
-        </h2>
+            <div class="stat-card">
+                <strong>3+</strong>
+                <span>Years Development Experience</span>
+            </div>
 
-        <div class="about-content">
+            <div class="stat-card">
+                <strong>4+</strong>
+                <span>Full Stack Projects</span>
+            </div>
 
-            <div>
+            <div class="stat-card">
+                <strong>10+</strong>
+                <span>Technologies</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>UK</strong>
+                <span>Based Software Developer</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="section about-section">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                ABOUT ME
+            </p>
+
+            <h2>
+                Turning ideas into reliable software.
+            </h2>
+
+            <p>
+                I enjoy solving real-world problems through clean,
+                maintainable and user-focused software.
+            </p>
+
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text">
 
                 <p>
-                    I am a Software Engineer with experience developing
-                    web applications using C#, .NET, React, Node.js
-                    and relational databases.
+                    I'm a Full Stack Software Developer with professional
+                    experience building web applications using C#, .NET,
+                    React, JavaScript and relational databases.
                 </p>
 
                 <p>
-                    I enjoy building clean user interfaces, developing
-                    REST APIs and working across the full software
+                    My experience spans frontend development, backend APIs,
+                    database-driven applications and the software
                     development lifecycle.
                 </p>
 
                 <p>
-                    I am particularly interested in .NET, cloud
-                    technologies and modern web development.
+                    I'm particularly interested in the Microsoft technology
+                    ecosystem, cloud development and building scalable
+                    applications using .NET and Azure.
                 </p>
+
+                <div class="about-highlights">
+
+                    <div>
+                        <span>01</span>
+                        <div>
+                            <strong>Clean Architecture</strong>
+                            <p>Building maintainable and structured applications.</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <div>
+                            <strong>Full Stack Development</strong>
+                            <p>Working across frontend, backend and databases.</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <div>
+                            <strong>Cloud Focus</strong>
+                            <p>Developing my expertise across Azure services and deployment.</p>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
 
-            <div class="about-stats">
+            <div class="about-card">
 
-                <div>
-                    <strong>3+</strong>
-                    <span>Years Experience</span>
+                <div class="about-card-header">
+                    <span class="window-dot"></span>
+                    <span class="window-dot"></span>
+                    <span class="window-dot"></span>
                 </div>
 
-                <div>
-                    <strong>5+</strong>
-                    <span>Projects</span>
-                </div>
+                <div class="code-window">
 
-                <div>
-                    <strong>10+</strong>
-                    <span>Technologies</span>
+                    <span class="code-purple">public class</span>
+                    <span class="code-blue">Developer</span>
+                    <span>{</span>
+
+                    <p>
+                        <span class="code-blue">Skills</span> =
+                        <span class="code-green">"C#, .NET, React"</span>;
+                    </p>
+
+                    <p>
+                        <span class="code-blue">Cloud</span> =
+                        <span class="code-green">"Azure"</span>;
+                    </p>
+
+                    <p>
+                        <span class="code-blue">Database</span> =
+                        <span class="code-green">"SQL"</span>;
+                    </p>
+
+                    <p>
+                        <span class="code-blue">Focus</span> =
+                        <span class="code-green">"Building"</span>;
+                    </p>
+
+                    <span>}</span>
+
                 </div>
 
             </div>
@@ -116,62 +260,172 @@
 
 </section>
 
+
+<!-- WHAT I DO -->
+
+<section class="section services-section">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                WHAT I DO
+            </p>
+
+            <h2>
+                From frontend to cloud.
+            </h2>
+
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+
+                <div class="service-icon">⌘</div>
+
+                <h3>Backend Development</h3>
+
+                <p>
+                    Building APIs and server-side applications using
+                    C#, ASP.NET Core, Entity Framework and .NET.
+                </p>
+
+                <div class="service-tags">
+                    <span>C#</span>
+                    <span>.NET</span>
+                    <span>REST APIs</span>
+                </div>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="service-icon">◈</div>
+
+                <h3>Frontend Development</h3>
+
+                <p>
+                    Creating responsive and intuitive interfaces using
+                    React, JavaScript, TypeScript, HTML and CSS.
+                </p>
+
+                <div class="service-tags">
+                    <span>React</span>
+                    <span>Blazor</span>
+                    <span>JavaScript</span>
+                </div>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="service-icon">☁</div>
+
+                <h3>Cloud & DevOps</h3>
+
+                <p>
+                    Working with Azure, Git, CI/CD and modern deployment
+                    workflows for cloud-based applications.
+                </p>
+
+                <div class="service-tags">
+                    <span>Azure</span>
+                    <span>Git</span>
+                    <span>CI/CD</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
 
 <section id="skills" class="section skills-section">
 
     <div class="section-container">
 
-        <p class="section-label">
-            SKILLS
-        </p>
+        <div class="section-heading">
 
-        <h2>
-            Technologies I work with
-        </h2>
+            <p class="section-label">
+                TECHNOLOGY STACK
+            </p>
+
+            <h2>
+                Technologies I work with.
+            </h2>
+
+        </div>
 
         <div class="skills-grid">
 
             <div class="skill-card">
 
+                <div class="skill-card-number">01</div>
+
+                <h3>Languages</h3>
+
+                <div class="skill-list">
+                    <span>C#</span>
+                    <span>JavaScript</span>
+                    <span>TypeScript</span>
+                    <span>SQL</span>
+                    <span>Python</span>
+                </div>
+
+            </div>
+
+            <div class="skill-card">
+
+                <div class="skill-card-number">02</div>
+
+                <h3>Microsoft & Backend</h3>
+
+                <div class="skill-list">
+                    <span>.NET</span>
+                    <span>ASP.NET Core</span>
+                    <span>ASP.NET MVC</span>
+                    <span>Entity Framework</span>
+                    <span>REST APIs</span>
+                </div>
+
+            </div>
+
+            <div class="skill-card">
+
+                <div class="skill-card-number">03</div>
+
                 <h3>Frontend</h3>
 
-                <p>
-                    HTML, CSS, JavaScript, TypeScript,
-                    React, Blazor
-                </p>
+                <div class="skill-list">
+                    <span>React</span>
+                    <span>Blazor</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                </div>
 
             </div>
 
             <div class="skill-card">
 
-                <h3>Backend</h3>
-
-                <p>
-                    C#, .NET, ASP.NET Core,
-                    ASP.NET MVC, Node.js, Express
-                </p>
-
-            </div>
-
-            <div class="skill-card">
-
-                <h3>Database</h3>
-
-                <p>
-                    SQL Server, MySQL,
-                    Oracle, PostgreSQL
-                </p>
-
-            </div>
-
-            <div class="skill-card">
+                <div class="skill-card-number">04</div>
 
                 <h3>Cloud & Tools</h3>
 
-                <p>
-                    Azure, Azure DevOps,
-                    Git, GitHub, CI/CD
-                </p>
+                <div class="skill-list">
+                    <span>Azure</span>
+                    <span>Azure DevOps</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>CI/CD</span>
+                </div>
 
             </div>
 
@@ -182,17 +436,32 @@
 </section>
 
 
-<section id="projects" class="section">
+<!-- PROJECTS -->
+
+<section id="projects" class="section projects-section">
 
     <div class="section-container">
 
-        <p class="section-label">
-            PROJECTS
-        </p>
+        <div class="section-heading project-heading">
 
-        <h2>
-            Featured Projects
-        </h2>
+            <div>
+
+                <p class="section-label">
+                    FEATURED WORK
+                </p>
+
+                <h2>
+                    Projects I've built.
+                </h2>
+
+            </div>
+
+            <p>
+                A selection of applications demonstrating my experience
+                across frontend, backend and database development.
+            </p>
+
+        </div>
 
         <div class="projects-grid">
 
@@ -211,41 +480,188 @@
 </section>
 
 
+<!-- EXPERIENCE -->
+
 <section id="experience" class="section experience-section">
 
     <div class="section-container">
 
-        <p class="section-label">
-            EXPERIENCE
-        </p>
+        <div class="section-heading">
 
-        <h2>
-            Professional Experience
-        </h2>
+            <p class="section-label">
+                EXPERIENCE
+            </p>
 
-        <div class="timeline">
+            <h2>
+                Professional journey.
+            </h2>
 
-            <div class="timeline-item">
+        </div>
 
-                <span class="timeline-date">
-                    2022 – 2024
-                </span>
+        <div class="experience-timeline">
 
-                <h3>
-                    Software Developer
-                </h3>
+            <div class="experience-item">
 
-                <h4>
-                    Qenta
-                </h4>
+                <div class="experience-marker">
+                    <span></span>
+                </div>
 
-                <p>
-                    Developed and maintained web applications
-                    using C#, .NET, ASP.NET and database technologies.
-                    Worked on application features, APIs and
-                    database-driven functionality.
-                </p>
+                <div class="experience-content">
 
+                    <span class="experience-date">
+                        2026
+                    </span>
+
+                    <h3>
+                        Web Developer
+                    </h3>
+
+                    <h4>
+                        GOK Foundation
+                    </h4>
+
+                    <p>
+                        Developed core features including user login and authentication flows, student dashboards, and course modules usingReact.js.
+                        Designed and managed database interactions (SQL) for user data, progress tracking, and system reliability.
+                        Applied best practices including version control and CI/CD pipelines to ensure secure, reliable deployments.
+                    </p>
+
+                    <div class="experience-tags">
+                        <span>C#</span>
+                        <span>.NET</span>
+                        <span>ASP.NET</span>
+                        <span>Oracle</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="experience-item">
+
+                <div class="experience-marker">
+                    <span></span>
+                </div>
+
+                <div class="experience-content">
+
+                    <span class="experience-date">
+                        2022 — 2025
+                    </span>
+
+                    <h3>
+                        Software Developer
+                    </h3>
+
+                    <h4>
+                        Qenta
+                    </h4>
+
+                    <p>
+                        Developed and maintained responsive web applications using React.js, .Net and C#, ensuring optimal performance across all devices and browsers.
+                        Led database design and optimization for PostgreSQL, ensuring secure and efficient data transactions.
+                        Managed tasks and progress efficiently by utilizing Jira for project management, with over 200 tickets tracked andcoordinated within the team.
+                        Developed dynamic front-end interfaces using React.js and reusable component libraries to enhance user experience.
+                    </p>
+
+                    <div class="experience-tags">
+                        <span>C#</span>
+                        <span>.NET</span>
+                        <span>ASP.NET</span>
+                        <span>Oracle</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="experience-item">
+
+                <div class="experience-marker">
+                    <span></span>
+                </div>
+
+                <div class="experience-content">
+
+                    <span class="experience-date">
+                       May 2022 - July 2022
+                    </span>
+
+                    <h3>
+                        Software Engineer Intern
+                    </h3>
+
+                    <h4>
+                        Qenta
+                    </h4>
+
+                    <p>
+                        Enhanced existing application modules with modern React.js components, improving application responsiveness.
+                        Integrated third-party APIs and authentication mechanisms, including JWT, to improve security and functionality.
+                        Automated unit testing, reducing bugs in production.
+                    </p>
+
+                    <div class="experience-tags">
+                        <span>C#</span>
+                        <span>.NET</span>
+                        <span>React</span>
+                        <span>SQL</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- DEVELOPMENT WORKFLOW -->
+
+<section class="section workflow-section">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                DEVELOPMENT WORKFLOW
+            </p>
+
+            <h2>
+                How I approach building software.
+            </h2>
+
+        </div>
+
+        <div class="workflow-grid">
+
+            <div class="workflow-item">
+                <span>01</span>
+                <h3>Understand</h3>
+                <p>Understand the problem, requirements and users.</p>
+            </div>
+
+            <div class="workflow-item">
+                <span>02</span>
+                <h3>Design</h3>
+                <p>Plan the architecture, database and user experience.</p>
+            </div>
+
+            <div class="workflow-item">
+                <span>03</span>
+                <h3>Build</h3>
+                <p>Develop clean frontend, backend and API components.</p>
+            </div>
+
+            <div class="workflow-item">
+                <span>04</span>
+                <h3>Deploy</h3>
+                <p>Test, deploy and continuously improve the application.</p>
             </div>
 
         </div>
@@ -255,38 +671,45 @@
 </section>
 
 
+<!-- CONTACT -->
+
 <section id="contact" class="section contact-section">
+
+    <div class="contact-glow"></div>
 
     <div class="section-container contact-container">
 
         <p class="section-label">
-            CONTACT
+            GET IN TOUCH
         </p>
 
         <h2>
-            Let's work together
+            Let's build something useful.
         </h2>
 
         <p>
             I'm currently open to software development opportunities
-            in the UK.
+            where I can contribute to building reliable and modern
+            applications.
         </p>
 
         <div class="contact-buttons">
 
-            <a href="mailto:YOUR_EMAIL@example.com"
+            <a href="mailto:azqa.amanullah1231@gmail.com"
                class="primary-button">
-                Email Me
+                Email Me →
             </a>
 
-            <a href="https://github.com/YOUR_USERNAME"
+            <a href="https://github.com/azqaamanullah"
                target="_blank"
+               rel="noopener noreferrer"
                class="secondary-button">
                 GitHub
             </a>
 
-            <a href="https://www.linkedin.com/in/YOUR_USERNAME/"
+            <a href="https://www.linkedin.com/in/azqa-amanullah-b730401b8"
                target="_blank"
+               rel="noopener noreferrer"
                class="secondary-button">
                 LinkedIn
             </a>
@@ -298,38 +721,66 @@
 </section>
 
 
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div>
+            <strong>Azqa Aman Ullah</strong>
+            <span>Full Stack Software Developer</span>
+        </div>
+
+        <p>
+            Built with C# · .NET · Blazor
+        </p>
+
+        <span>
+            © 2026
+        </span>
+
+    </div>
+
+</footer>
+
+
 @code {
 
     private Project Interpay = new()
     {
         Title = "Interpay Africa",
         Description = "A payment-focused web application developed using ASP.NET and Oracle.",
-        Technologies = ["ASP.NET", "C#", "Oracle"],
-        GitHubUrl = "#"
+        Image = "",
+        Technologies = ["ASP.NET", "C#", "Oracle"]
+        // GitHubUrl = "#",
+        // LiveUrl = "#"
     };
 
     private Project Payabhi = new()
     {
         Title = "Payabhi",
         Description = "A full-stack web application with a React frontend and Node.js backend.",
-        Technologies = ["React", "Node.js", "MySQL"],
-        GitHubUrl = "#"
+        Image = "",
+        Technologies = ["React", "Node.js", "MySQL"]
     };
 
     private Project Attendance = new()
     {
         Title = "Online Attendance System",
         Description = "A database-driven attendance management application.",
-        Technologies = ["ASP.NET MVC", "C#", "SQL Server"],
-        GitHubUrl = "#"
+        Image = "",
+        Technologies = ["ASP.NET MVC", "C#", "SQL Server"]
+        
     };
 
     private Project DigitRecognition = new()
     {
         Title = "Handwritten Digit Recognition",
         Description = "An image-processing project for recognizing handwritten digits.",
-        Technologies = ["Python", "OpenCV"],
-        GitHubUrl = "#"
+        Image = "",
+        Technologies = ["Python", "OpenCV"]
+       
     };
 
 }
